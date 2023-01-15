@@ -1,0 +1,67 @@
+
+
+.btn {
+margin:5px;
+border-radius: 5px;
+border-color: aliceblue;
+ border-style: solid;
+border-width: 3px;
+cursor: pointer;   
+}
+
+
+
+.elem{
+color: yellow;
+border-radius: 5px;
+border-width: 3px;
+border-color: aliceblue;
+border-style: solid; 
+
+}
+
+.hide {
+   opacity: 1;
+   animation-name: a1;
+   animation-duration: 500ms;
+   animation-fill-mode: forwards;
+}
+
+h1{
+color: #0e0e0e;
+}
+
+.colrize {
+               border-width: 0;
+              border-radius: 5px;
+               cursor: pointer; 
+               height: 35px;
+                width: 35px;
+}
+
+.hostElt {
+background-color: orange;
+filter: drop-shadow(5px 5px 2px #945E00);  
+}
+
+.newelem {
+   border-width: 3px;
+   border-color: aliceblue;
+   border-style: solid; 
+   filter: drop-shadow(5px 5px 2px #945E00);
+ 
+}
+
+
+
+@keyframes a1{
+       to {
+               opacity: 0;
+                height: 0;
+                width: 0;
+                padding: 0;
+                margin: 0;
+                border: 0;
+        }
+}
+
